@@ -1,9 +1,5 @@
 <?php
-
-$type = $_GET['item_type'];
- $type = "barang";
- if($type == "barang"){
-	
+	//script untuk ambil semua data dan membuat json, tinggal cari cara gimana ambil data json nya terus di convert di mobile agar bisa ditampilkan dengan sesuai keinginan
 	require_once 'connect.php';
 	
 	$sql = "SELECT * FROM barang";
@@ -28,5 +24,4 @@ $type = $_GET['item_type'];
 	}
 	
 	echo json_encode($result, TRUE);
-}
 	mysqli_close($conn);
