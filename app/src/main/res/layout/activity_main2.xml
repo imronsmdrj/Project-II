@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".getData.Main2Activity">
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Scan Barcode"/>
+
+    <EditText
+        android:id="@+id/etID"
+        android:layout_below="@id/btnScan"
+        android:hint="ID Barang"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etNamaBarang"
+        android:layout_below="@id/etID"
+        android:hint="Nama Barang"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etSatuan"
+        android:layout_below="@id/etNamaBarang"
+        android:hint="Pilih Satuan"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etHarga_pokok"
+        android:layout_below="@id/etSatuan"
+        android:hint="Harga Pokok"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etHarga_eceran"
+        android:layout_below="@id/etHarga_pokok"
+        android:hint="Harga Eceran"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etStok"
+        android:layout_below="@id/etHarga_eceran"
+        android:hint="Stok Barang"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etKategori"
+        android:layout_below="@id/etStok"
+        android:hint="Pilih Kategori"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_below="@id/etKategori"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:text="SAVE"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+</RelativeLayout>
