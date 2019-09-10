@@ -22,7 +22,7 @@ public class Main2Activity extends AppCompatActivity {
     private EditText etID, etNamaBarang, etSatuan, etHarga_pokok, etHarga_eceran, etStok, etKategori;
     private Button btnScan, btnSave;
     //    private APIService mAPIService;
-    public static final String URL = "http://192.168.100.172/retrofit/";
+    public static final String URL = "http://192.168.100.171/retrofit/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
